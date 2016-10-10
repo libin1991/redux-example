@@ -17,7 +17,7 @@ var entry = {
      * 案例页入口文件
      * @type {String}
      */
-    entry: './src/entry/index.js'
+    example: './src/example/index.js'
 };
 
 module.exports = {
@@ -68,9 +68,9 @@ module.exports = {
             title: 'Redux案例演示',
             keywords: '我的页面关键字',
             description: '我的页面描述',
-            filename: './entry/index.html',
+            filename: './example/index.html',
             template: './src/common/common.html',
-            chunks: ['entry'],
+            chunks: ['example'],
             inject: true, //要把script插入到标签里
             shareIcon: '', //分享图片地址
             hash: true //是否产生hash
